@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "primeiro"
+version = "0.1.0"
+description = "
+Selenium Python: Beginners to Advanced [Live Project]
+Includes all the Pre-requisites required for Selenium. Also includes Pytest and BDD Frameworks creation from scratch.
+Created by Arun Motoori
+67.5 hours on-demand video
+https://www.udemy.com/course/selenium-python-beginners-to-advanced/
+"
+authors = ["diego <diegosolidity@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+seleniumbase = "^4.23.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
